@@ -56,6 +56,13 @@ main{
     margin-top: 10px;
     text-align: center;
 }
+.card1, .card2, .card3{
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
 footer{
     background-color:rgba(112, 128, 144, 0.5);
     height: 60px;
