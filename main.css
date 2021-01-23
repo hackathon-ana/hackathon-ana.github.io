@@ -36,6 +36,26 @@ main{
     padding-right: 240px;
     padding-left: 240px;
 }
+.cardHolder
+{
+    text-align: center;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: space-between;
+}
+.cardHolder h2{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.cardHolder p{
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    margin-top: 10px;
+    text-align: center;
+}
 footer{
     background-color:rgba(112, 128, 144, 0.5);
     height: 60px;
