@@ -17,9 +17,9 @@ header{
     filter:brightness(80%);
     margin-top: 0px;
     font-family: 'Lato', sans-serif;
-    height: 600px;
+    height: 575px;
     text-align: center;
-    line-height: 550px;
+    line-height: 575px;
     margin-bottom:40px;
 }
 header h1{
@@ -40,7 +40,7 @@ nav{
     padding-bottom: 15px;
 }
 main{
-    height: 450px;
+    height: 550px;
     text-align: center;
     font-family: 'Lato', sans-serif;
     padding-left: 40px;
