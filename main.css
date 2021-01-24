@@ -47,7 +47,8 @@ main{
     padding-right: 40px;
 }
 .maintalk{
-    color:#457B9D;
+/*     color:#457B9D; */
+    filter:brightness(80%);
     color:honeydew;
     font-family: 'Lato', sans-serif;
 }
