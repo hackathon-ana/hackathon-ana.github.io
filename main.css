@@ -7,40 +7,64 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
-.container{
+/* .container{
 margin-left: auto;
 margin-right:auto;
-width:1024px;
-}
+} */
 header{
-/*     background-color:#A8DADC; */
-    margin-top: 30px;
-    height: 135px;
-
+    /* background-image: url("images/photo-1584020961222-f72484ed4d9a.jpeg"); */
+    background-image: url("https://i.pinimg.com/originals/10/23/3d/10233db29952e589ccaa7239cc5b3e4e.png");
+    filter:brightness(80%);
+    margin-top: 0px;
+    font-family: 'Lato', sans-serif;
+    height: 600px;
+    text-align: center;
+    line-height: 550px;
+    margin-bottom:40px;
 }
 header h1{
-    text-align: center;
-    color: #5d50e6;
-
+    color:honeydew;
+    font-family: 'Lato', sans-serif;
+}
+.headtitle{
+    color: snow;
+    font-family: 'Lato', sans-serif;
+    font-size: 90px;
 }
 nav{
-    background-color:slategray;
+    background-color:white;
+    color: #9DBF9B;
     text-align: center;
+    font-family: 'Lato', sans-serif;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 main{
-    height: 400px;
+    height: 1000px;
     text-align: center;
+    font-family: 'Lato', sans-serif;
     padding-top: 80px;
-    padding-right: 240px;
-    padding-left: 240px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.maintalk{
+    color:#457B9D;
+    font-family: 'Lato', sans-serif;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+    width: 50%;
+    width: fit-content;
 }
 .cardHolder
 {
     text-align: center;
     width: 1024px;
     margin-left: auto;
+    font-family: 'Lato', sans-serif;
     margin-right: auto;
     display:flex;
     justify-content: space-between;
@@ -48,60 +72,57 @@ main{
 .cardHolder h2{
     text-align: center;
     margin-top: 20px;
-
+    font-family: 'Lato', sans-serif;
 }
 .cardHolder p{
     font-size: 0.85rem;
     line-height: 1.5rem;
     margin-top: 10px;
+    font-family: 'Lato', sans-serif;
     text-align: center;
 }
 .card1{
-    background-color:purple;
+    background-color:#457B9D;
     background-size: cover;
     min-height: 250px;
+    font-family: 'Lato', sans-serif;
     width: 30%;
     background-position: bottom;
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.212)
 }
 .card2{
-    background-color:purple;
+    background-color:#457B9D;
     background-size: cover;
     min-height: 250px;
+    width: 30%;
+    background-position: bottom;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.212)
+}
+.card3{
+    background-color:#457B9D;
+    background-size: cover;
+    min-height: 250px;
+    font-family: 'Lato', sans-serif;
     width: 30%;
     background-position: bottom;
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.212)
 }
-
-.center {
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 70px 0;
-  text-align: center;
-}
-
-.card3{
-    background-color:purple;
-    background-size: cover;
-    min-height: 250px;
-    width: 30%;
-    background-position: bottom;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.212)   
-}
 h1{
     background-size: cover;
     font-size: 3rem;
-    font-family: 'Playfair Display', serif;
+    color:#457B9D;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 1rem;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.212);
 }
 h2{
     background-size: cover;
     font-size: 2rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lato', sans-serif;
 }
 p{
+    font-family: 'Lato', sans-serif;
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
 }
@@ -109,45 +130,90 @@ i{
     font-size: 100px;
 }
 a{
-    color: white;
+    color: snow;
     text-decoration: none;
+    font-family: 'Lato', sans-serif;
 }
 .card1, .card2, .card3{
     padding-top: 30px;
     padding-right: 25px;
     padding-left: 25px;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
     border-radius: 10px;
+    color: white;
+}
+.cardheadertext{
+    color:white;
+}
+.card3:hover{
+    background-color:#CAA09F;
+    transition-duration: 1s;
+}
+.card2:hover{
+    background-color:#CAA09F;
+    transition-duration: 1s;
+}
+.card1:hover{
+    background-color:#CAA09F;
+    transition-duration: 1s;
 }
 .b
-
 h1{
     font-size: 84px;
     color:white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     /*how to comment in css*/
 }
 p{
-    font-size: 18px;
+    font-size: 21px;
     color:white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 a{
-    color: snow;
-    font-family: Arial, Helvetica, sans-serif;
+    color:#457B9D;
+    /* color:  #9DBF9B; */
+    font-family: 'Lato', sans-serif;
 }
 nav a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    color: now;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
 }
-
 footer p{
     font-size: 8px;
     color:white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
 }
-
+.moreInfo{
+    font-size: 20px;
+    background-color:#CAA09F;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 20px 23px rgba(0, 0, 0, 0.1);
+    display:inline-block;
+}
+.moreInfo:hover{
+    background-color: #457B9D;
+    transition-duration: 1s;
+}
+.footertext{
+    color: #457B9D;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+footer{
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+hr{
+    margin-top: 40px;
+    color: #457B9D;
+}
